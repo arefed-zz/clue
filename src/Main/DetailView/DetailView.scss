@@ -1,0 +1,29 @@
+.list {
+	padding:24px; 
+	 
+	div {
+		height:50px; 
+		border-width: 1px  1px 0 1px; 
+		border-color: grey; 
+		border-style: solid;
+		background-color: #f8f8f8;
+		display:block;
+		padding: 15px 24px 0 24px;
+		box-sizing:border-box; 
+		color:black;
+	}
+	div:last-child {
+		border-bottom: 1px solid grey;
+	}
+}
+
+.backButton {
+	display: inline-block; 
+	height:40px; 
+	padding: 10px 20px 0 24px; 
+	margin: 10px;  
+	box-sizing: border-box; 
+	text-decoration: none; 
+	background-color: #cc0000; 
+	color: white; 
+}
